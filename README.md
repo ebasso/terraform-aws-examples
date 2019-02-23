@@ -2,6 +2,8 @@
 
 Exemplos de configurações do Terraform, do básico ao complexo ...
 
+
+
 # Exemplos disponíveis
 
 Cada diretório é um exemplo, veja os detalhes na tabela abaixo:
@@ -10,14 +12,19 @@ Cada diretório é um exemplo, veja os detalhes na tabela abaixo:
 |-------------------------------|--------------------------------------------------------------------------|
 | exemplo01-aws-t2-micro        | Cria 2 instâncias EC2 na AWS |
 | exemplo02-aws-dependencies    | Cria 1 instância EC2 e atribui um Elastic IP, através de um dependência  |
+| exemplo03-aws-provisioners    | Cria 1 instância EC2 e configura a instância (provisioner)  |
+| exemplo04-variables           | Usando variáveis (variables.tf)  |
 
 
-## Configurando as credenciais na amazon
+
+# Configurando as credenciais na amazon
 
 No meu site descrevo como criar as credenciais, veja no link [Terraform: Criando o ~/.aws/credentials e ajustando o Terraform](http://ebasso.net/wiki/index.php?title=Terraform:_Criando_o_aws_credentials_e_ajustando_o_Terraform&action=edit&redlink=1)
 
 
-## Como executar os exemplos?
+
+
+# Como executar os exemplos?
 
 Escolha um do diretórios de exemplo e e execute os comandos:
 
@@ -48,6 +55,8 @@ terraform apply
 ```
 terraform destroy
 ```
+
+
 
 # Authors
 

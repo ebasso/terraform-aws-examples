@@ -1,0 +1,7 @@
+# O arquivo terraform.tfvars_exemplo deve ser renomeado para terraform.tfvars para ser utilizado.
+# Coloquei dessa forma por causa do .gitignore
+
+amis2 = {
+    "us-east-1" = "ami-0080e4c5bc078760e"
+    "us-west-2" = "ami-0080e4c5bc078760e"
+}
