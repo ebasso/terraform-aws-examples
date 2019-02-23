@@ -1,6 +1,6 @@
 # terraform-examples
 
-Exemplos de configurações do Terraform com a AWS, do básico ao complexo ...
+Exemplos de configurações do [Terraform][tf] com a [Amazon Web Services (AWS)][aws], do básico ao complexo ...
 
 
 
@@ -67,3 +67,8 @@ terraform destroy
 # License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+# Links
+
+[tf]: http://terraform.io
+[az]: https://aws.amazon.com
