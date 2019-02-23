@@ -1,8 +1,8 @@
 # Define a região e as credenciais para a AWS
-provider "aws" {
-  region     = "${var.region}"
-  shared_credentials_file = "${var.shared_credentials_file}"
-}
+#provider "aws" {
+#  region     = "${var.region}"
+#  shared_credentials_file = "${var.shared_credentials_file}"
+#}
 
 #resource "aws_instance" "example04-01" {
 #  ami           = "${lookup(var.amis, var.region)}"

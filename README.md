@@ -1,6 +1,6 @@
 # terraform-examples
 
-Exemplos de configurações do Terraform, do básico ao complexo ...
+Exemplos de configurações do Terraform com a AWS, do básico ao complexo ...
 
 
 
@@ -8,14 +8,15 @@ Exemplos de configurações do Terraform, do básico ao complexo ...
 
 Cada diretório é um exemplo, veja os detalhes na tabela abaixo:
 
-| Exemplo                       |           Descrição  |
-|-------------------------------|--------------------------------------------------------------------------|
-| exemplo01-aws-t2-micro        | Cria 2 instâncias EC2 na AWS |
-| exemplo02-aws-dependencies    | Cria 1 instância EC2 e atribui um Elastic IP, através de um dependência  |
-| exemplo03-aws-provisioners    | Cria 1 instância EC2 e configura a instância (provisioner)  |
-| exemplo04-variables           | Usando variáveis (variables.tf)  |
+| Exemplo                       | Free | Descrição  |
+|-------------------------------|------|--------------------------------------------------------------------------|
+| exemplo01-aws-t2-micro        | Sim  | Cria 2 instâncias EC2 na AWS |
+| exemplo02-aws-dependencies    | Sim  | Cria 1 instância EC2 e atribui um Elastic IP, através de um dependência  |
+| exemplo03-aws-provisioners    | Sim  | Cria 1 instância EC2 e configura a instância (provisioner)  |
+| exemplo04-variables           | Sim  | Usando variáveis (variables.tf)  |
+| exemplo05-modules             | Não  | Usando módulo Consul da Hashicorp. Muito cuidado!!! Você pode ser cobrado.  |
 
-
+* Free: se refere ao Amazon Free Tier. Em alguns casos pode ocorrer cobrança.
 
 # Configurando as credenciais na amazon
 
