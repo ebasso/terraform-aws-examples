@@ -68,7 +68,7 @@ terraform destroy
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-# Links
+# End Of file. :)
 
 [tf]: http://terraform.io
-[az]: https://aws.amazon.com
+[aws]: https://aws.amazon.com
